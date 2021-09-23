@@ -1,0 +1,899 @@
+{%extends 'layout.html' %}
+
+{%block body%}
+<!-- fixed     -->
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action" id="list-rice-list" data-bs-toggle="list" href="#list-rice" role="tab" aria-controls="rice">Rice</a>
+        <a class="list-group-item list-group-item-action" id="list-wheat-list" data-bs-toggle="list" href="#list-wheat" role="tab" aria-controls="wheat">Wheat</a>
+        <a class="list-group-item list-group-item-action" id="list-maize-list" data-bs-toggle="list" href="#list-maize" role="tab" aria-controls="maize">Maize</a>
+        <a class="list-group-item list-group-item-action" id="list-tomato-list" data-bs-toggle="list" href="#list-tomato" role="tab" aria-controls="tomato">Tomato</a>
+        <a class="list-group-item list-group-item-action" id="list-potato-list" data-bs-toggle="list" href="#list-potato" role="tab" aria-controls="potato">Potato</a>
+        <a class="list-group-item list-group-item-action" id="list-brinjal-list" data-bs-toggle="list" href="#list-brinjal" role="tab" aria-controls="brinjal">Brinjal</a>
+        <a class="list-group-item list-group-item-action" id="list-chilli-list" data-bs-toggle="list" href="#list-chilli" role="tab" aria-controls="chilli">Chilli</a>
+        <a class="list-group-item list-group-item-action" id="list-lentil-list" data-bs-toggle="list" href="#list-lentil" role="tab" aria-controls="lentil">Lentil</a>
+        <!-- <a class="list-group-item list-group-item-action" id="list-bottle_ground-list" data-bs-toggle="list" href="#list-bottle_ground" role="tab" aria-controls="bottle_ground">Bottle Ground</a> -->
+        <a class="list-group-item list-group-item-action" id="list-mango-list" data-bs-toggle="list" href="#list-mango" role="tab" aria-controls="mango">Mango</a>
+        <a class="list-group-item list-group-item-action" id="list-litchi-list" data-bs-toggle="list" href="#list-litchi" role="tab" aria-controls="litchi">Litchi</a>
+        <a class="list-group-item list-group-item-action" id="list-jackfruit-list" data-bs-toggle="list" href="#list-jackfruit" role="tab" aria-controls="jackfruit">Jackfruit</a>
+        <a class="list-group-item list-group-item-action" id="list-banana-list" data-bs-toggle="list" href="#list-banana" role="tab" aria-controls="banana">Banana</a>
+        <a class="list-group-item list-group-item-action" id="list-strawberry-list" data-bs-toggle="list" href="#list-strawberry" role="tab" aria-controls="strawberry">Strawberry</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <!--Rice-->
+        <div class="tab-pane fade" id="list-rice" role="tabpanel" aria-labelledby="list-rice-list">
+          <p>The dominant food crop of Bangladesh is rice, accounting for about 75 percent of agricultural land use (and 28 percent of GDP). The cultivation of rice in Bangladesh varies according to seasonal changes in the water supply. The largest harvest is aman, occurring in November and December and accounting for more than half of annual production. Some rice for the aman harvest is sown in the spring through the broadcast method, matures during the summer rains, and is harvested in the fall. The higher yielding method involves starting the seeds in special beds and transplanting during the summer monsoon. The second harvest is aus, involving traditional strains but more often including high-yielding, dwarf varieties. Rice for the aus harvest is sown in March or April, benefits from April and May rains, matures during the summer rain, and is harvested during the summer. With the increasing use of irrigation, there has been a growing focus on another rice-growing season extending during the dry season from October to March. The production of this boro rice, including high-yield varieties, expanded rapidly until the mid-1980s, when production leveled off at just below 4 million tons. Where irrigation is feasible, it is normal for fields throughout Bangladesh to produce rice for two harvests annually.  
+          <br>Now we will know about some rice diseases.
+          </p>
+        
+          <!--Rice_Blast-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Blast
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>The fungus attacks the crop at all stages of crop growth. Symptoms appear on leaves, nodes, rachis and glumes. On the leaves, the lesions appear as small bluish green flecks, which enlarge under moist weather to form the characteristic spindle shaped spots with grey center and dark brown margin (leaf blast).The spots coalesce as the disease progress and large areas of the leaves dry up and wither. Spots also appear on sheath. Severely infected nursery and field appear as burnt. The affected nodes may break up and all the plants above the infected nodes may die (nodal blast).
+                <br>Intermittent drizzles, cloudy weather, more of rainy days, longer duration of dew high relative humidity (93-99%), Low night temperature (between 15-20 degree Celsius or less than 26 degree Celsius), Availability of collateral hosts, and excess does of nitrogen.
+                <br>Rice is the staple food crop for a large part of the human population in the world today. Rice
+                Blast is by far the most important disease of the many diseases that attack rice. It is found wherever rice is grown, it is always important, and it is always a threat. Failures of entire
+                rice crops have resulted directly from rice blast epidemics. The challenge for research continues to be to produce high quality food, in ever-increasing amounts at a lower costs, all while in the presence of an unforgiving and unrelenting pathogen. All of the plant disease management strategies and techniques that have been generated through research have been brought to bear against rice blast, but often with limited success. Rice blast has never been eliminated from a region in which rice is grown, and a single change in the way in
+                which rice is grown or in the way resistance genes are deployed can result in significant disease losses even after years of successful management. This disease is a model that
+                demonstrate the seriousness, elusiveness, and longevity of some plant diseases. Rice blast has been widely studied throughout the world. Many investigators have considered it to be a model disease for the study of genetics, epidemiology, molecular pathology of host
+                parasite interactions and biology. Recent advances in understanding the genes that gover the avirulence (resistance) and virulence (susceptibility) interactions have been made with rice blast, and each advance has helped us to understand how other plant diseases work. It is also important to note that the entire genomes of the rice blast fungus and rice have been sequenced and that M. oryzae is the first plant pathogenic fungus to have its genome
+                sequenced and released to the public.                
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Rice_Narrow Brown Leaf Spot-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Narrow Brown Leaf Spot
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Narrow brown leaf spot of rice, caused by the fungus Cercospora janseana, varies in severity from year to year and is more severe as rice plants approach maturity. The fungus produces short, linear brown spots mostly on leaves and also on sheaths, pedicels and glumes. The spots appear in large numbers during later stages of crop growth.
+                  <br>Spray Carbendazim 500 g or Mancozeb 2 kg/ha to prevent this.
+                </p>
+               </div>
+            </div>
+          </div>
+          <!--Rice_Brown Spot-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Brown Spot
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>The disease can occur at all rice stages and on different parts of the rice plant. The symptom begins on leaves as small brown spots, which then develop into round or oval brown spots in later stages .Seedling blight can occur when infected seeds are used.  This disease also damages rice grains, causing brown spots and black discoloration on the grains. Typical classical brown spot symptoms are observed at tillering stage and beyond: small and circular foliar lesions that are initially dark brown to purple-brown.
+                <br>Temperature of 25-30 degree Celsius with relative humidity above 80 percent are highly favorable,excess of nitrogen the disease severity.
+                <br>Cultural method :
+                Remove collateral weed hosts from bunds and channels,
+               Use only disease free seedlings
+               Avoid excess nitrogen,
+               Apply N in three split doses (50% basal, 25% in tillering phase and 25% N in panicle initiation stage).<br>
+               Chemical Method:
+               Remove collateral weed hosts from bunds and channels,
+               Use only disease free seedlings,
+               Avoid excess nitrogen Apply N in three split doses (50% basal, 25% in tillering phase and 25% N in panicle
+               initiation stage)	               
+                </p>
+               </div>
+            </div>
+          </div>
+          <!--Rice_Sheath Rot-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Sheath Rot
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Initial symptoms are noticed only on the upper most leaf sheath enclosing young
+                  Panicles. The flag leaf sheath show oblong or irregular greyish brown spots. They enlarge and develop grey center and brown margins covering major portions of the leaf sheath. The young panicles remain within the sheath or emerge partially. The panicles rot and abundant whitish powdery fungal growth is seen inside the leaf sheath.
+                  <br>Closer planting, High doses of nitrogen, High humidity and temperature around 25-30 degree Celsius.
+                  <br>1. Sheath rot is a seed-borne disease, use healthy seeds.<br>
+                  2. Minimize insect infestation in rice field.<br>
+                  3. The fungi survive on rice crop residue after harvest and can cause infection in following seasons.<br>
+                  4. Use optimum plant spacing.<br>
+                  5. Apply potash at tillering stage.                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Rice_SHeath Blight-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Sheath Blight
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Early symptoms usually develop on the leaf sheaths at or just above the water line as circular, oval or ellipsoid, water-soaked spots which are greenish-gray in color. As the disease progresses, they enlarge and tend to coalesce forming larger lesions with grayish white centers surrounded by tan to dark brown irregular borders or outlines. Infection can spread to leaf blades and cause irregular lesions with dark green, brown, or yellow-orange
+                  margins. The lesions can develop extensively and coalesce on partial or whole leaf blades, which may produce a rattlesnake skin pattern. These damaged tissues interrupt the normal
+                  flow of water and nutrients to the plant tissues above (leaves and panicles). As the plant approaches heading, the canopy becomes dense, creating a humid microclimate that is favorable for the rapid development of the disease. The disease may move up the plant and infect the flag leaves and panicles under severe conditions. The fungus can spread into the
+                  culms from early sheath infections and weaken the infected culms, resulting in the lodging and collapse of tillers. The damage caused by sheath blight ranges from partial infection of the lower sheaths with little impact on grain filling to the premature death of plants and
+                  lodging with a significant reduction in grain yield and quality.
+                  <br>High relative humidity (96-97%), high temperature (30-32 degree Celsius). Closer planting, Heavy doses of nitrogenous fertilizers.
+                  <br>An integrated management approach, consisting of resistant or moderately resistant varieties, sound cultural practices, and foliar fungicide application, is ideal for effective and
+                  economic control of sheath blight and associated yield losses. Varietal susceptibility, field disease history, timely scouting for the presence of the disease, and local weather conditions that favor the disease are among the critical factors to be considered for making effective disease management decisions. Sheath blight develops at a rapid pace under favorable conditions. The disease should be monitored on a regular basis starting from the panicle differentiation stage until heading. Infection after heading may cause insignificant
+                  economic losses due to sheath blight.                  
+                  </p>
+              </div>
+            </div>
+          </div>
+          <!--Rice_Stack Bum Disease-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                Stack Bum Disease
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p>Early symptoms usually develop on the leaf sheaths at or just above the water line as circular, oval or ellipsoid, water-soaked spots which are greenish-gray in color. As the disease progresses, they enlarge and tend to coalesce forming larger lesions with grayish
+                  white centers surrounded by tan to dark brown irregular borders or outlines. Infection can
+                  spread to leaf blades and cause irregular lesions with dark green, brown, or yellow-orange margins. The lesions can develop extensively and coalesce on partial or whole leaf blades, which may produce a rattlesnake skin pattern. These damaged tissues interrupt the normal
+                  flow of water and nutrients to the plant tissues above (leaves and panicles). As the plant approaches heading, the canopy becomes dense, creating a humid microclimate that is
+                  favorable for the rapid development of the disease. The disease may move up the plant and
+                  infect the flag leaves and panicles under severe conditions. The fungus can spread into the
+                  culms from early sheath infections and weaken the infected culms, resulting in the lodging
+                  and collapse of tillers. The damage caused by sheath blight ranges from partial infection of
+                  the lower sheaths with little impact on grain filling to the premature death of plants and
+                  lodging with a significant reduction in grain yield and quality.
+                  <br>SPS measure, Cultural control and sanitary measures, Chemical control.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--Wheat-->
+        <div class="tab-pane fade" id="list-wheat" role="tabpanel" aria-labelledby="list-wheat-list">
+          <p>Wheat is the second most important staple food crop in Bangladesh after rice. Its importance as a food and nutrition security crop has increased since independence. Wheat production has increased steadily from around 0.115 million tons in 1971-72 and gradually decreased to 0.73 million tons in 2005-06 (BBS, 2006).
+            <br>Now we will know about some wheat diseases.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!--Wheat_Yellow or Stripe Rust-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Yellow or Stripe Rust
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    The symptoms of stripe rust are the same on wheat and barley. Yellow pustules of stripe rust can occur on all aerial parts of Leaf the plant, but are most frequently seen on the leaves. Individual pustules (uredia) are roughly circular and about 0.5-1 mm in diameter. The pustules are often arranged into conspicuous stripes and their linear orientation between vascular bundles can progress the length of the leaf blade. On seedlings, pustules appear individually rather than in lines. During the summer, stripe rust infection of wheat spikes may occur, resulting in the formation of masses of spores between the glume and the lemma. At the end of the season, black telia may form in patches of tissue that have been killed by stripe rust uredia.
+                    <br>Stripe rust of wheat is caused by the basidiomycete fungus.
+                    <br>The most effective, economic and practical means of control of stripe rust on wheat or barley I through the use of varieties that are resistant to P. striiformis. The frequency of severe epidemics of wheat stripe rust has been obviously reduced in West European countries, North America, China and India since the introduction of resistant wheat varieties in the early 1970s. Work on the development of resistant wheat varieties continues throughout the world. To stabilize the pathogen population and decrease epidemic frequency, it is important to use different sources of variety resistance, including major-gene resistance, polygenic resistance, high-temperature resistance, and adult-plant resistance (Mundt and Browning, 1985).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Wheat_Blight(bacterial diseases)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Blight(bacterial diseases)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    B. sorokiniana causes seedling blight, leaf spotting (spot blotch), root rot and black point of wheat
+and barley. Infected seedlings have brown lesions on roots, coleoptiles and sub crown internodes.
+Brown lesions are also a feature of the crown and root rot infections pm older plants. Leaf spotting
+(spot blotch) shows up as small brown lesions less than 1 cm in diameter, which may coalesce into
+large elongated blotches of necrotic tissue. Spot blotch appears more frequently in wet weather, on
+lower leaves and following head development.
+                    <br>Bacterial leaf blight is caused by the bacteria. The disease develops under frequent rains between 59 – 77° F. and disease progress will be curtailed once wheat is exposed to periods of low humidity and warm temperatures (above 77° F).
+                    <br>Spray the crop with Mancozeb or Zineb at 2kg/ha
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Wheat streak mosaic-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Wheat streak mosaic
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    On individual leaves, the symptoms of wheat streak mosaic start as small chlorotic lines. As the symptom development progresses, chlorotic lines elongate to form discontinuous yellow to pale green streaks, forming a mosaic pattern in the leaves. In severe cases, the stripes may coalesce, forming large chlorotic areas, and commonly result in the symptoms progressing into leaf tissue necrosis and plant death. Stunting is another prominent symptom of infected plants.
+                    <br>Wheat streak mosaic on winter wheat is the presence of over summering hosts on which virus-carrying mites build up to large numbers. Reproduction of mites and replication of the virus are favored by temperatures of 75°F to 80°F.
+                    <br>Destruction of volunteer wheat at least 2 weeks prior to planting winter wheat in the fall is the most effective management practice for both the mite and disease.]
+                    Avoiding early planting can reduce wheat curl mite numbers and the length of time that they have to transmit wheat streak.]
+                    Varietal selection; producers in areas where wheat streak is common should avoid varieties that are highly susceptible to WSMV (e.g. the variety RonL is extremely susceptible). 
+                    Avoiding use of miticides, as it has not been shown to be effective.                                      
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Maize-->
+        <div class="tab-pane fade" id="list-maize" role="tabpanel" aria-labelledby="list-maize-list">
+          <p>
+            Maize is the third most important cereal crop in Bangladesh. As maize has a high adaptability to the country's climate and soil conditions, it is a perfect match for fallow lands, river islands (chars), the Chittagong Hill tracks and the disaster prone coastal areas. The growing demand of maize for feed market adds to its profitability as a crop. Yet, the 570,000 farmers in Bangladesh who grow maize meet only 70% of domestic demand. The low supply of produce is rooted in low quality inputs, limited knowledge, wrong cultivation techniques and post-harvest losses.<br>
+            Now we will know about some maize diseases.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!--Maize_Anthracnose leaf blight(fungal diseases)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Anthracnose leaf blight (Fungal disease)
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    The fungus can infect many different parts of the host plant, typically the kernels and tassels of Maize, roots, leaves, stalk and husks. The most common area of infection is the stalk. G. raminicola produces three major symptom types: leaf blight, stalk rot and top die-back. The leaf blight is characterized by round yellowing water soaked lesions on the leaves. These lesions usually occur early in the season and are how this pathogen is distinguished from other diseases. Top die-back is the necrosis of the top leaves and stalk of the corn. This occurs around the same time as grain formation. The stalk rot phase becomes prominent during the late reproductive stages of the corn life cycle. It is characterized by blackening of the pith tissue in the stalk and also of the rind, beginning at the nodes closest to the soil. Along with these symptoms, seedling blight and post emergence damping off are also found. 
+                    <br>The fungus overwinters as mycelium or sclerotia in corn residue or seed. Spores are spread primarily by splashing water. Disease development is favored by wet weather during early crop growth with moderately warm temperatures. Anthracnose leaf blight is most common where corn follows corn.
+                    <br>Since C. graminicola is found to survive on corn residue, specifically on the soil surface; one of the most effective methods of control is a one-year minimum of crop rotation to reduce anthracnose leaf blight. A study in 2009 showed more severe symptoms of leaf blight due to C. graminicola when grown on fields previously used for corn in comparison to fields previously used for soybean. Other management methods include the use of hybrid selections and tillage systems. Keeping in mind, hybrid selection may be resistant to leaf blight but they are not necessary resistant to other fungal diseases such as stalk rot. Tillage systems that are able to fully bury corn residue deep underground along with one year crop rotation will reduce the source of inoculum greatly. More work is still needed in order to determine the influence of buried and surface corn residues as a source of inoculum for corn anthracnose.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Maize_Leaf blight of maize(bacterial disease)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Leaf blight of maize (Bacterial disease)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Reddish brown ova I spots appear on young seedlings with blight yellow, margin. In severe case, several spots coalesce to cause drying of leaves. It is a complex disease, having association of A. triticina, B. sorokiniana and A. alternate.
+                  <br>Infection pressure is considerably different from year to year. Warm and humid weather in early summer sets favorable conditions for an epidemic.
+                  <br>The best practice for management of southern corn leaf blight is breeding for host resistance. Both single gene and polygene resistance sources have been discovered. Normal cytoplasm maize can resist both Race T and Race C, hence the more widespread presence of Race O. In some resistant hybrids flecking may be found, but is only a reaction to resistance and will not cause loss of economic significance. Other methods of control can prevent the spread of all races. For example, it is important to manage crop debris between growing seasons, as B. maydis overwinters in the leaf and sheath debris. Tillage can be used to help encourage breakdown of any remaining debris. It has been observed that burying residues by plowing has reduced the occurrence of SCLB as opposed to minimal tillage, which can leave residue on soil surface. Another form of cultural control used to limit southern corn leaf blight is crop rotation with non-host crops. Additionally, foliar fungicides may be used. Foliar disease control is critical from 14 days before to 21 days after tasseling, this is the most susceptible time for damages from leaf blight to occur. The fungicides should be applied to plants infected by SCLB immediately once lesions become apparent. Depending on the environmental conditions, re-applications may be necessary during the growing season.
+                </div>
+              </div>
+            </div>
+            <!--Maize_Maize dwarf mosaic-MDMV-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Maize dwarf mosaic-MDMV
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    When looking for symptoms of MDMV in corn, one must also be aware of the plant’s growth stage as
+symptoms may affect the plant differently at various stages. Young leaves, may experience chlorotic
+spotting which may eventually turn into a mosaic or mottle pattern (“Maize Dwarf Mosaic Virus,”n.d.). Later in the growing season, the mosaic pattern may bleed into a general yellowing of the leaf and eventually areas of red streaks or blotches may appear if night time temperatures are consistently around 60 degrees Fahrenheit (Lipps &amp; Mills, n.d.). Plants affected later in their reproductive cycle may experience a slowing in ear development (“Maize Dwarf Mosaic Virus,” n.d.),while some plants may even become barren (Lipps &amp; Mills, n.d.). It is not uncommon for plants to have shortened upper internodes or an increase in tiller number (“Maize Dwarf Mosaic Virus,” n.d.).
+                    <br>Under cool conditions, mosaic on sorghum plants can be accompanied by red stripes.
+                    <br>When looking for symptoms of MDMV in corn, one must also be aware of the plant’s growth stage as symptoms may affect the plant differently at various stages. Young leaves, may experience chlorotic spotting which may eventually turn into a mosaic or mottle pattern (“Maize Dwarf Mosaic Virus,” n.d.). Later in the growing season, the mosaic pattern may bleed into a general yellowing of the leaf and eventually areas of red streaks or blotches may appear if night time temperatures are consistently around 60 degrees Fahrenheit (Lipps & Mills, n.d.). Plants affected later in their reproductive cycle may experience a slowing in ear development (“Maize Dwarf Mosaic Virus,” n.d.), while some plants may even become barren (Lipps & Mills, n.d.). It is not uncommon for plants to have shortened upper internodes or an increase in tiller number (“Maize Dwarf Mosaic Virus,” n.d.).
+                  </p>
+                </div>
+              </div>
+            </div>
+              <!--Maize_False root-knot-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    False root-knot
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>
+                      N. aberrans sensu lato causes root galls mainly along the root axis and at the root tips. The galls are superficially similar to those caused by Meloidogyne spp. However, the galls caused by N. aberrans sensu lato tend to be more discrete and rounded, giving a beaded appearance, while those caused by Meloidogyne often coalesce to form elongated swellings along the root. The root knots are in a bead-like arrangement, hence the name rosary-root nematode. Such root-knots may be confused with those produced by Meloidogyne hapla. Mature galls tend to be flat with a rough corky surface and bear many lateral roots (Clark, 1967; Inserra et al., 1983; Manzanilla-López et al., 2002).In heavily attacked plants, the symptoms above ground include poor growth, stunting and yellowing of leaves. Root swellings occur within 5 days of invasion (Altman and Thomason, 1971). There may not be any symptoms with light infections.
+                      <br>Due to the variable regulations around (de)registration of pesticides, we are for the moment not including any specific chemical control recommendations. For further information, we recommend you visit the following resources:
+                      a) EU pesticides database (http://ec.europa.eu/food/plant/pesticides/eu-pesticides-database/)<br>
+                      b)PAN pesticide database (www.pesticideinfo.org)<br>
+                      c) Your national pesticide guide.                                                                
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>        
+            
+        <!--Tomato-->
+        <div class="tab-pane fade" id="list-tomato" role="tabpanel" aria-labelledby="list-tomato-list">
+          <p>
+            The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America. The Nahuatl word tomatl gave rise to the Spanish word tomate, from which the English word tomato derived.<br>
+            Recent statistics showed that tomato was grown in 30756 ha of land and the total production was approximately 414 thousand metric tons in 2015. Thus the average yield of tomato in Bangladesh was 5.47 t ha-1 (BBS, 2015), while it was 87.96 t ha-1 in USA, 49.87 t ha-1 in China and 20.12 t ha-1 in India (FAOSTAT, 2012).
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+          <!--Tomato_Early blight(fungal diseases)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Early blight (Fungal diseases)
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Symptoms of early blight occur on fruit, stem and foliage of tomatoes and stem, foliage and tubers of potatoes.  Initial symptoms on leaves appear as small 1-2 mm black or brown lesions and under conducive environmental conditions the lesions will enlarge and are often surrounded by a yellow halo . Lesions greater than 10 mm in diameter often
+                    have dark pigmented concentric rings.  This so-called “bulls eye” type lesion is highly characteristic of early blight. As lesions expand and new lesions develop entire leaves may turn chlorotic and dehisce, leading to significant defoliation.  Lesions occurring on stems are often sunken and lens-shaped with a light center, and  have the typical concentric rings . On young tomato seedlings lesions may completely girdle the stem, a phase of the disease known as “collar rot,” which may lead to reduced plant vigor or death. Infection of both green and ripe tomato fruit normally occurs through the calyx with lesions sometimes reaching a considerable size . The lesions appear leathery and may have the characteristic concentric rings. Infected fruit will frequently drop prematurely. Symptoms on potato tubers are characterized by sunken, irregular lesions, which are often surrounded by a raised purple border. Beneath the surface of the lesion the tuber tissue is leathery or corky with a brown discoloration.  Early blight lesions on tubers tend to be dry and are less prone to invasion by secondary organisms than lesions of other tuber rots.  After prolonged storage severely diseased tubers may become shriveled.
+                    <br>Spread over short distances occurs when spores are moved plant-to-plant in wind, rain and overhead irrigation water. Survival occurs in crop remains, and also on seed. Favorable conditions for the disease are warm, humid weather with heavy dews or rain.
+                    <br>Rotate your crops: When you harvest a bumper crop one year, it is so tempting to plant in the same spot the following season. However, if tomatoes are the crop in question, restrain yourself! You increase the chance of developing an early blight infection if you grow tomato plants in the same place in consecutive years. Wait at least two years before planting in the same location again, since the spores can persist in the soil and any partially decomposed plants for a year to follow. This is true even if you didn’t see any symptoms of early blight, since the pathogen can start building up without your knowledge. This applies to any crops in the nightshade family as well, such as eggplant, which can also be infected by the fungus.
+                    <br>
+                    PURGE NIGHTSHADES AND VOLUNTEER TOMATO PLANTS:
+                    Plants in the same family as tomatoes (solanaceous plants, or nightshades), and volunteer tomato plants can also serve as hosts for Alternaria species. These can pass the infection on to your tomato plants. This is true for edible crops such as potatoes, as well as hairy nightshade, black nightshade, and horse nettle, so be vigilant and keep these weeds out of your garden. When you remove the weeds and volunteer plants, make sure you destroy them – do not place on your compost pile.
+                    <br>KEEP YOUR PLANTS DRY: 
+                    The Alternaria spores require a lot of moisture to germinate. Tomato plants are used to growing in dry climates, so they are unusually sensitive to water on their leaves, which makes them more prone to fungal infections than many other crops. Take every precaution you can to minimize the amount of moisture on your tomato plants. In the presence of spores, this can help to prevent a fungal infection from getting worse. Try to avoid working with or around your plants in wet weather. Using drip irrigation instead of watering from overhead will help to keep your plants dry.
+                    <br>STAKE YOUR PLANTS:
+                    When your plants are staked, this helps to create better airflow around them, helping them to stay dry. Another benefit is that there will be less contact between the leaves and the soil that could be contaminated with spores. Pruning the suckers at the bottom of the plant will also help. However, don’t wait until your tomatoes are fully grown to stake them. You should put the stakes in at the time of planting. If you stake them later on, you risk damaging the roots. Learn how to use Florida weave to support your tomato plants. 
+                    <br>REMOVE INFECTED PLANTS:
+                    If you see signs of early blight on one or two of your plants, it’s best to pull them up and destroy the debris immediately. Do not place it on the compost pile. You’ll then need to inspect the rest of your crops to check for symptoms, and treat accordingly, as discussed below.                                        
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Tomato_Bacterial spot diseases(bacterial disease)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Bacterial spot diseases (Bacterial disease)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Bacterial spot occurs on peppers and tomatoes. Many of the disease features are similar for both crops. The focus of the information presented here is on pepper. Worldwide, 16.5 million metric tons (36 million tons) of peppers are grown for fresh consumption and for use in condiments. For many people in the U.S., the bell-shaped pepper fruit is the most familiar however; non-bell-type peppers are more widely grown. Bacteria attack the foliage, stems, and fruit of peppers and tomatoes. On peppers, lesions may form on fruit, including the peduncle, but the major crop loss. Results from shedding of blossoms and young, developing fruit. Fruit that remain are usually non-marketable because of poor quality. They may have lesions and are often misshapen and damaged from excessive exposure to the sun as a result of defoliation. This can result in sunscald on the fruit . Diseased leaves drop prematurely resulting in extensive defoliation. As newly emerging leaves become infected and defoliation of older, diseased leaves continues, plants possess leaves mostly on their upper stems. Generally, defoliation is more common for peppers than for tomatoes. Because the diseased foliage often remains on tomato plants, affected plants may have a scorched appearance.
+                    <br>Optimal conditions for bacterial leaf spot are high moisture, high relative humidity (≥ 80%) and warm temperatures (75-90 °F).
+                    <br>The most effective management strategy is the use of pathogen-free certified,
+                    seeds and disease-free transplants to prevent the introduction of the pathogen into greenhouses and field production areas. Inspect plants very carefully and reject infected transplants- including your own! In the greenhouse, discard trays adjacent to outbreak location to minimize disease spread.
+                    Treat seeds with dilute bleach, hydrochloric acid, or hot water to reduce the potential for seedling infection. However, this seed treatment is not recommended for producers that use pelleted seeds as it will remove the pelleted coating from seeds. These treatments may also reduce seed germination. Perform a test treatment on
+                    approximately 50 to 100 seeds and check for the effect on germination before treating
+                    an entire seed lot. For specific instructions and recommendations please consult
+                    The Southeastern US Vegetable Crop Handbook.
+                     In transplant production greenhouses, minimize overwatering and handling of
+                    seedlings when they are wet.
+                     Trays, benches, tools, and greenhouse structures should be washed and
+                    Sanitized between seedlings crops. Crop rotation should be used to avoid pathogen carryover on volunteers and crop
+                    residue. Avoid fields that have been planted with peppers or tomatoes within one year,
+                    Especially if they had bacterial spot previously.
+                    Eliminate solanaceous weeds in and around tomato and pepper production areas.
+                    Keep cull piles away from field operations. Do not spray, tie, harvest, or handle wet plants as that can spread the disease.                    
+                  </p>
+              </div>
+              </div>
+            </div>
+            <!--Tomato_Tomato yellow leaf curl virus(viral diseases)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Tomato yellow leaf curl virus (Viral diseases)
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Tomato yellow leaf curl is a disease of tomato caused by Tomato yellow leaf curl virus. In March 2007, it was identified for the first time in California and currently has a limited distribution. An educational brochure was created at that time and is available to print.
+                    Infected tomato plants initially show stunted and erect or upright plant growth; plants
+                    infected at an early stage of growth will show severe stunting. However, the most
+                    diagnostic symptoms are those in leaves.
+                    Leaves of infected plants are small and curl upward; and show strong crumpling and
+                    intervene and marginal yellowing. The internodes of infected plants become shortened
+                    and, together with the stunted growth, plants often take on a bushy appearance, which
+                    is sometimes. Flowers formed on infected plants commonly do not develop and fall off (abscise). Fruit production is dramatically reduced, particularly when plants are infected at an early age, and it is not uncommon
+                    for losses of 100% to be experienced in fields with heavily infected plants.
+                    <br>Symptoms of TYLCV infection include severe stunting, reduction of leaf size, upward cupping/curling of leaves, chlorosis on leaves and flowers, and reduction of fruit production.
+                    <br>Cultural Control
+                    Growing tomato in open fields is much more constraining than growing under cover. In all regions
+                    where TYLCV is endemic, seedlings need to be grown and kept in a glasshouse or a screen house in
+                    order to prevent early infection by whitefly feeding. In Thailand, farmers grow tomato plants in
+                    isolated paddy fields after rice harvesting. In Egypt the spread of TYLCV in open fields was
+                    successfully controlled by rouging infected plants and removing all overwintered tomato crops before
+                    the emergence of whitefly populations (Mazyad et al., 1986). Similar measures were undertaken in
+                    Cyprus over 3 consecutive years resulting in a decrease in the incidence of the disease from 50 to
+                    5% (Ioannou, 1987). In the Dominican Republic, a mandatory 3 months host-free growing period
+                    which included bean, cucurbits, aborigine, melon, okra, pepper and tomato, significantly reduced
+                    the inoculum and lowered to a minimum the incidence of TYLCV (Gilbertson et al., 2007). Early
+                    planting when the incidence of B. tabaci is low, effectively reduced TYLCV infection in Egypt, Israel
+                    and Cyprus. Interpolating with rows of TYLCV non-host trap plants such as squash and cucumber
+                    have been used to divert whiteflies from tomato in the Jordan Valley, delaying TYLCV infection by 2
+                    months (Al-Musa, 1982). Sticky yellow plastic polyethylene sheets have been used, with limited
+                    success, to decrease the pressure of the whitefly population (Cohen et al., 1974). When
+                    economically feasible, growing tomatoes in greenhouses covered with insect-proof 50-mesh screens
+                    and double-doors constitutes the optimal solution for crop protection against the TYLCV whitefly
+                    vector (Cohen and Berlinger, 1986; Ioannou, 1987). UV-absorbing plastic sheets or UV-absorbing
+                    50-mesh screens, used as tunnels or as screen house covers, greatly reduced the infestation of
+                    tomato plants by B. tabaci and the incidence of TYLCV (Antignus et al., 1998). Whitefly natural
+                    enemies (Gerling, 1990) have not been used on a large scale in open fields.                                      
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!--Potato-->        
+        <div class="tab-pane fade" id="list-potato" role="tabpanel" aria-labelledby="list-potato-list">
+          <p>
+            In Bangladesh, potato is primarily used as a vegetable, although in many countries of the world it constitutes the staple food and contributes more than 90% of the carbohydrate food source. Millions of tons of potatoes are processed annually in Europe into starch, alcohol, potato meal, flour, dextrose and other products. Some are processed into potato chips, dehydrated mashed potatoes, French fries and canned potatoes. Large quantities of potatoes in the Netherlands, Ireland, Germany and other countries of Europe are grown specifically for manufacture of alcohol, starch, potato meal or flour, and for livestock feeding. Europeans consume much larger quantities of potato than the North Americans. Asian countries consume more rice than potato for carbohydrate foods.
+            <br>In Bangladesh, although the principal use of potatoes is to make potato curry along with fish, meat, and eggs, there exists a great diversity in the consumption of potatoes. Notable among potato-based food items are the boiled potato, fried potato, mashed potato, baked potato, potato chop, potato vegetable mix, potato singara, potato chips, French fry etc. In recent years, bakeries and fast food shops have started preparing a wide variety of potato-based food delicacies.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!--Potato_Late blight(Fungal disease)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Late Blight (Fungal disease)
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Leaf infections are large brown blotches with a green gray edge. Leaves have large, dark brown blotches with a green gray edge; not confined by major leaf veins. Infections progress through leaflets and petioles, resulting in large sections of dry brown foliage. Stem infections are firm and dark brown with a rounded edge. Firm, dark brown, circular spots grow to cover large parts of fruits. Spots may become mushy as secondary bacteria invade. In high humidity, thin powdery white fungal growth appears on infected leaves, fruit and stems. Infected fruit have a dry brown rot.In high humidity, powdery white spores form on infected fruit, leaves and stems In cool, wet weather, entire fields turn brown and wilted as if hit by frost.
+                    <br>The late blight pathogen is favored by free moisture and cool to moderate temperatures. Night temperatures of 50 to 60 F and day temperatures of 60 to 70 F are most favorable for disease development.
+                    <br>Disinfect the potato house before bringing in a new crop, especially if there was a problem with blight the year before. Disinfect with 1 part bleach to 9 parts water solution, peroxide or other suitable disinfectants. When you notice diseased tubers, cull them. A hot water treatment may be used to disinfect tubers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Potato_Bacterial wilt(bacterial disease)-->
+            <div class="accordion-item"></div>
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Bacterial wilt (bacterial disease)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    At the early stages of disease, the first visible symptoms of brown rot are usually on the foliage of
+                    plants. These symptoms consist of wilting of the youngest leaves at the ends of the branches during
+                    the hottest part of the day.<br>
+                    At this stage, only one or half a leaflet may wilt, and plants may appear to recover at night, when the
+                    Temperatures are cooler. As the disease develops under favorable conditions, all leaves in a hill may
+                    wilt quickly and desiccate although dried leaves remain green, leading to general wilting and
+                    yellowing of foliage and eventually plant death. Another common symptom that can be associated
+                    with brown rot in the field is stunting of plants . These symptoms may appear at any stage of plant
+                    growth.<br>
+                    In young potato stems, infected vascular bundles may become visible as long, narrow, dark brown
+                    streaks. In young, succulent plants of highly susceptible varieties, collapse of the stem may also be
+                    observed. In well-established infections, cross-sections of stems and stolons may reveal brown
+                    discoloration of infected tissues.
+                    <br>In potato, it is tuber-borne. Spread from plant to plant results from bacteria moving from the roots of infected plants to neighboring plants. The bacteria can also be transported by irrigation water. Disease incidence is highest when soil moisture is high, such as during rainy periods.
+                    <br>Rotate your crops regularly.
+                    Install raised beds. Space plants out evenly to improve air circulation.
+                    Test soil and amend to a pH of 6.2 to 6.5 for tomatoes and most garden vegetables.
+                    Wash hands and gardening tools after handling infected plants.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Potato_Potato yellow mosaic virus-PYMV-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Potato yellow mosaic virus-PYMV
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Infected plants with only mild symptoms in the upper leaves may show typical symptoms in the older
+                    leaves shaded by the top foliage. Such older leaves do not turn uniformly yellow but have a greenish
+                    banding of veins on a yellow background . Blotchy type of mottling, waviness and undulating margins etc.,
+                    in potato plants infected with PVX and PVA was noted by Pushkarnath in year 1964 . Under cool, cloudy
+                    condition potato cultivars may develop as mottle, interveinal mosaic, mild mosaic and supermild mosaic .
+                    Cariboo and York are two Canadian cultivars which exhibited a corky necrosis.
+                    In many potato varieties PVX evokes an interveinal mosaic but in some plants rugosity of the leaves or
+                    even crinkling has been reported by Brien and Rich . Sharma, et al.and Rich reported mild imperceptible
+                    mottling of potato leaves (light green patches) which leads the chlorosis and stunning of the potato plants
+                    infected with PVX. Potato virus X cause less perceptible mosaic which can be seen in shade or when a
+                    white card is held behind the leaf . Mild mosaic and stunting PVX symptoms were observed by Jung, et
+                    al.  in Koria. PVX (potex virus) usually causes faint mottle or inter-veinal mosaic in very young plants
+                    depending upon the varieties. The symptoms are clearer at low temperature. PVX in combination with
+                    PVY produces rugose mosaic while crinkle mosaic is the result of PVA combination. In some cultivars tuber necrosis is also reported Kumar, et al.,  Uniyal reported the mild mosaic symptom in potato crop by Potato virus X . The mild mosaic is the general symptom clearly visible on young plants at the beginning
+                    of infection. As the season progresses due to increasing temperature, the mosaic symptom becomes less
+                    apparent . Agrios reported the mosaic and stunting symptom of Potexvirus (PVX) in potato plant. Major
+                    symptom of PVX are mosaic and dwarfing on potato plants but in potato cultivar Craigs Defiance to
+                    necrosis was observed.
+                    <br>In an infection of Potato virus A (mild mosaic), the plants have light crinkling, as well as mild yellow mottling. Leaf margins may be wavy and appear rough with sunken veins. Severity of symptoms depends on the strain, cultivar and weather conditions. Potato virus Y (Rugose mosaic) is the most severe of the viruses.
+                    <br>Mosaic viruses are mostly spread by insects, especially aphids and leafhoppers. 
+                    Control your seeds. 
+                    To avoid seed-borne mosaic viruses, soak seeds of susceptible plants in a 10% bleach solution before planting.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+<!--Brinjal-->        
+        <div class="tab-pane fade" id="list-brinjal" role="tabpanel" aria-labelledby="list-brinjal-list">
+          <p>
+            Brinjal (baygoon) also known as eggplant and aubergine, one of the most popular vegetables, Solanum melongena, of the family Solanaceae, grows in an area of about 29,132 ha producing about 1,87,705 m tons; rich in calcium, phosphorus, sulphur, chlorine, and vitamins A and C. Planting time is October-November; ready for harvest in 90-100 days; yield ranges from 40-45 m ton/ha depending on the variety. Islampuri, Khat Khatia, Dohazari, Volanath and Singnath are some of the popular local varieties of brinjal.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!--Brinjal_Southem blight of brinjal-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Southem blight of brinjal
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Roots of infected plants are rotten, easily pulled out; whitish mycelia are found in infected root with mustard like sclerotia.
+                    <br>Avoid planting in fields with a history of southern blight. Rotate host crops with corn, wheat, barley, sorghum, rice, small-grains, or other non-host crops to reduce inoculum levels in soil. Modify planting dates to avoid conditions that favor disease development, when possible.
+                  </p>  
+                </div>
+              </div>
+            </div>
+            <!--Brinjal_Damping off(bacterial disease)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Damping off (Bacterial disease)
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Typical symptoms of damping-off are rotting stems at or near the soil line and root decay (post-emerging damping off). Affected areas in the seed bed are usually a foot or more in diameter with shriveled brown, collapsed or stunted
+                    seedlings. Rhizoctonia, Fusarium, Sclerotinia, and Sclerotium generally caused post
+                    emergence damping-off by killing the seedling at the soil line. Pythium attacks below the
+                    soil line, often at root tips.
+                    <br>Phomopsis Blight (Phomopsis vexans): It is a serious disease of brinjal infecting the foliage and the fruits. The fungus infects the seedlings in the nursery causing damping off symptoms. In seedling infection, it causes damping off symptoms
+                    <br>Often large sections or whole trays of seedlings are killed. It can cause root rot or crown rot in more mature plants. Use sterilized pots or trays with good drainage and use clean, new potting soil to prevent damping off.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Brinjal_Brinjal mosaic virus(viral disease)-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Brinjal mosaic virus (viral disease)
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    The important symptoms of the disease are mosaic mottling of the leaves and stunning of plants. The leaves of infected plants are deformed; small and leathery. Plants show a stunned growth when infected in the early stages.
+                    <br>This diseases can be minimized by reducing the population of aphids, removal and destruction of infected plants and eradication of susceptible weed hosts.in nursery aphids can be controlled by application of Carbofuran(1 kg)in nursery bed at the time of showing seeds followed by 2-3 foliar sprays of phosphamidon(0.05%)at an interval of 10 days. Spraying phosphamidom (0.05%) at 10 days interval starting from 15-20 days after transplanting effectively controls the aphids in the field.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Chilli-->
+        <div class="tab-pane fade" id="list-chilli" role="tabpanel" aria-labelledby="list-chilli-list">
+          <p>
+            Chilli (marich) pod of a bushy plant, Capsicum frutescens, of the family Solanaceae, widely used as spice, native of Mexico. In Bangladesh the crop is grown in an area of about 66,235 ha and annual production amounts to about 52,215 m tons. Chilli is a good source of vitamins and phosphorus.<br>
+            It can be cultivated in both the summer and winter seasons; average yield of green chilli is 5 to 6 m tons/ha. The crop is widely cultivated in Bangladesh. As a winter crop, however, it is grown mostly in Comilla, Noakhali, Faridpur, Barisal, Patuakhali, and Bogra. There are several local varieties like Balijuri, Bona, Bain, Saita, Suryamukhi, Paba, Halda, Dhani, Shikarpuri and Patnai.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <!--Chilli_Anthracnose-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Anthracnose
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    On chili fruits, anthracnose can cause extensive pre- and post-harvest damage, as well as pre-harvest symptoms on leaves and stems. Often, symptoms of the post-harvest disease do not develop until the fruit is ripe. Typical symptoms are circular or angular sunken lesions on fruits, with concentric rings of acervuli. Orange conidial masses are often produced in acervuli creating a surface that is wet and slimy. Lesions may coalesce under severe disease pressure.
+                    <br>High temperature (28 C). ➢ High relative humidity (92% or above).
+                    <br>Remove and destroy any infected plants in your garden. For trees, prune out the dead wood and destroy the infected leaves. You can try spraying your plants with a copper-based fungicide, though be careful because copper can build up to toxic levels in the soil for earthworms and microbes.                
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Chilli_Bacterial leaf spot-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Bacterial leaf spot
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Bacterial spot occurs on peppers and tomatoes. Many of the disease features are similar for both crops. The focus of the information presented here is on pepper. Worldwide, 16.5
+                    million metric tons (36 million tons) of peppers are grown for fresh consumption and for use
+                    in condiments. For many people in the U.S., the bell-shaped pepper fruit is the most familiar
+                    however, non-bell-type peppers are more widely grown.
+                    Bacteria attack the foliage, stems, and fruit of peppers and tomatoes. On peppers, lesions
+                    may form on fruit, including the peduncle , but the major crop loss results from shedding of
+                    Blossoms and young, developing fruit. Fruit that remain are usually non-marketable because of poor quality. They may have lesions and are often misshapen and damaged
+                    from excessive exposure to the sun as a result of defoliation. This can result in sunscald on
+                    the fruit. Diseased leaves drop prematurely resulting in extensive defoliation. As newly
+                    emerging leaves become infected and defoliation of older, diseased leaves continues,
+                    plants possess leaves mostly on their upper stems . Generally, defoliation is more common
+                    for peppers than for tomatoes. Because the diseased foliage often remains on tomato
+                    plants, affected plants may have a scorched appearance.
+                    <br>The bacterium needs a temperature of 22 to 34oC with high humidity for maximum infection. Infection takes place at a wide range of temperatures from 15 to 35oC but the optimum is 24 to 30oC. Forty to fifty day old plants are most susceptible to this disease.
+                    <br>Spraying of Agrimycin 100 alone or with 3gm/l copper oxychloride/ copper sulphate or 2gm/l mancozeb will control the bacterium. Disinfecting the seeds for 1 minute in 1.3 per cent sodium hypochlorite solution and drying in shade is the best way to reduce seed borne bacterium.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Chilli_Leaf curl-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Leaf curl
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    Infected plant has stunted young leaves and shoots. It grows very slowly, becomes bushy, and dwarfed. The leaf margin rolls either inward or upward and is rather stiff with yellowish margin. Its leaves are thicker than normal, with
+                    leathery texture. The young leaves have yellowish color, cupped, thick, and
+                    Rubbery.
+                    On tomato, the flowers appear normal and the fruits do not show any symptom
+                    from the viral infection. On cotton, the flowers fail to open and drop so with the
+                    bolls.
+                    <br>There are no known effective methods for preventing or reducing chilli leaf curl virus. Follow chemical control methods, such as imidacloprid or dinotefuran. Spray seedlings with imidacloprid or lambda-cyhalothrin before transplanting to control the vector.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Lentil-->
+        <div class="tab-pane fade" id="list-lentil" role="tabpanel" aria-labelledby="list-lentil-list">
+          <p>
+            Lentil is the most popular pulse crop. It constitutes one of the main items in the daily diet of a vast majority of the people of Bangladesh. It is grown as a winter crop. It cannot tolerate extreme cold or hot climates. This crop has some level of drought tolerance but it is highly susceptible to waterlogging. Grain yield is about 680 kg/ ha. Lentil is cultivated in about 508000 acres of land and the annual production is about 170,000 m tons.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Mango-->
+        <div class="tab-pane fade" id="list-mango" role="tabpanel" aria-labelledby="list-mango-list">
+          <p>
+            Mango a FRUIT widely cultivated in the tropical and subtropical countries of the world. The origin of mango, Mangifera indica, of the family Anacardiaceae, is lost in antiquity. According to some authorities, horticultural forms are derived from the species M. indica, considered indigenous to the eastern region of the Indian subcontinent, including Bangladesh, Assam (India), and Myanmar.
+            Mango trees grow widely throughout Bangladesh and are raised mostly as homestead plantations. Mangoes of this country belong mainly to two groups, such as, (i) superior or the elite varieties which are propagated through grafting and other vegetative means; and (ii) local varieties, raised by seedlings, popularly known as 'Deshhi' or 'Guti am'. The latter has no recognised varietal names, and the taste is not assured.
+            Bangladesh produces a large number of superior varieties of mangos, mostly grown in Rajshahi, Nawabganj, and Dinajpur. These have wide demand in the market and are commercially important. Prominent among the elite varieties are Fazlee, Langda, Gopalbogh, Himsagar, Khirsapat, Ashhwina, Khisanbogh, Kuapahadi, Lata Bombai, Foria, Bombai, Kohitoor, Laksmanbhog, Mohanbhog, Misribhog etc.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Litchi-->
+        <div class="tab-pane fade" id="list-litchi" role="tabpanel" aria-labelledby="list-litchi-list">
+          <p>
+            Litchi a fruit of Litchi chinensis (family Sapindaceae), consisting of a thin, brittle shell enclosing a sweet, jelly like pulp and a single seed. The original home of litchi is' China. It was introduced to Burma and India by the end of the 17th century. Litchi can be grown in every district of Bangladesh, however, presently it is being grown mainly in RAJSHAHI, RANGPUR, DINAJPUR, JESSORE, KUSHTIA, MYMENSINGH and NARAYANGANJ. It stands second in production after MANGO among the tree fruits grown in the country.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Jackfruit-->
+        <div class="tab-pane fade" id="list-jackfruit" role="tabpanel" aria-labelledby="list-jackfruit-list">
+          <p>
+            Jackfruit is considered as the national fruit of Bangladesh. It is an important fruit crop in India, Bangladesh, Burma, Sri Lanka, Malaysia, Indonesia, Thailand, the Philippines and many other tropical countries.<br>
+            The jackfruit ranks third in area under cultivation and second in production among the fruits of Bangladesh. There are 25,110 ha of land under jackfruit having an annual production of 469,500 tons (BBS, 2000-2007). It accounts about 22% of total fruit production in the country.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Banana-->
+        <div class="tab-pane fade" id="list-banana" role="tabpanel" aria-labelledby="list-banana-list">
+          <p>
+            Banana (kala) a familiar tropical FRUIT. From its native southwestern Pacific home, the banana plant spread to India by about 600 BC and later on it spread all over the tropical world. It is possibly the world's oldest cultivated crop. It even spread into the Islands of the Pacific and to the West Coast of Africa as early as 200-300 BC. Banana (Musa paradisiaca, family Musaceae) is one of the tallest of the herbaceous plants with a pseudo-stem.
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Strawberry-->
+        <div class="tab-pane fade" id="list-strawberry" role="tabpanel" aria-labelledby="list-strawberry-list">
+          <p>
+            Details
+          </p>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%endblock%}
